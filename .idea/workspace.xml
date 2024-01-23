@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81027f13-adeb-4e44-8c3a-a8f94c8f940e" name="変更" comment="EclipseからIntelliJに移行">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/converter/DecimalToBinaryConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/CoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/LCS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/LIS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dynamic_programming/SubsetSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/KnightTour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/MST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/BuildHuffmanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/CacheReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/FindClosestPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/DoublyLinkedListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/SinglyLinkedListOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/PowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/HashTableSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/search/NaiveSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sql/DatabaseExample.java" afterDir="false" />
-    </list>
+    <list default="true" id="81027f13-adeb-4e44-8c3a-a8f94c8f940e" name="変更" comment="EclipseからIntelliJに移行" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,22 +24,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IdeaProjects/Java_Learn&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;アプリケーション.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/IdeaProjects/Java_Learn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true",
+    "アプリケーション.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.Main" />
@@ -117,8 +77,17 @@
       <option name="presentableId" value="Default" />
       <updated>1705996365114</updated>
       <workItem from="1705996366101" duration="377000" />
-      <workItem from="1705996754752" duration="939000" />
+      <workItem from="1705996754752" duration="1827000" />
     </task>
+    <task id="LOCAL-00001" summary="EclipseからIntelliJに移行">
+      <option name="closed" value="true" />
+      <created>1705997707059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705997707059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
