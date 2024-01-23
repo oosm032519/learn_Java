@@ -18,7 +18,9 @@ public class MergeSort implements Sort {
         int[] left = new int[mid];
         int[] right = new int[n - mid];
         System.arraycopy(array, 0, left, 0, mid);
-        if (n - mid >= 0) System.arraycopy(array, mid, right, 0, n - mid);
+        if (n - mid >= 0) {
+            System.arraycopy(array, mid, right, 0, n - mid);
+        }
 
         // 左半分と右半分をそれぞれソートする
         sort(left);
