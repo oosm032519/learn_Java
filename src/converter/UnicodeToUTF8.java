@@ -25,18 +25,21 @@ public class UnicodeToUTF8 {
             // 2バイトの形式
             // 110と10を追加して16ビットにする
             utf8 = "110" + binary.substring(0, length - 6) + "10" + binary.substring(length - 6);
-        } else if (length <= 16) {
-            // 3バイトの形式
-            // 1110と10と10を追加して24ビットにする
-            utf8 = "1110" + binary.substring(0, length - 12) + "10" + binary.substring(length - 12, length - 6) + "10" + binary.substring(length - 6);
-        } else if (length <= 21) {
-            // 4バイトの形式
-            // 11110と10と10と10を追加して32ビットにする
-            utf8 = "11110" + binary.substring(0, length - 18) + "10" + binary.substring(length - 18, length - 12) + "10" + binary.substring(length - 12, length - 6) + "10" + binary.substring(length - 6);
         } else {
-            // エラーを表示する
-            System.out.println("Unicodeの符号位置が範囲外です。");
-            return;
+            final var substring = binary.substring(length - 12, length - 6);
+            if (length <= 16) {
+                // 3バイトの形式
+                // 1110と10と10を追加して24ビットにする
+                utf8 = "1110" + binary.substring(0, length - 12) + "10" + substring + "10" + binary.substring(length - 6);
+            } else if (length <= 21) {
+                // 4バイトの形式
+                // 11110と10と10と10を追加して32ビットにする
+                utf8 = "11110" + binary.substring(0, length - 18) + "10" + binary.substring(length - 18, length - 12) + "10" + substring + "10" + binary.substring(length - 6);
+            } else {
+                // エラーを表示する
+                System.out.println("Unicodeの符号位置が範囲外です。");
+                return;
+            }
         }
 
         // UTF-8の符号を16進数に変換する
